@@ -44,7 +44,7 @@ section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagem/pexels-vitor-lopes-13737562.jpg) no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center top;    
     height: 200px;     
 }
 
@@ -125,7 +125,7 @@ form > a.botao {
     padding-top: 5px;
     margin-top: 5px;
     background-color: #a3d5d3;
-    color: #5c7676;;
+    color: #5c7676;
     border: 1px solid #a3d5d3;
     border-radius: 5px;
     text-decoration: none;
