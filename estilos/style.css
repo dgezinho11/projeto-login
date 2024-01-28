@@ -23,7 +23,7 @@ main {
     width: 100vw;    
 }
 
-section#login {
+section#login {    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,11 +44,20 @@ section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagem/pexels-vitor-lopes-13737562.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     height: 200px;     
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
